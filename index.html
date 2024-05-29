@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!--Icone no Navegador-->
+    <link rel="shortcut icon" href="assets/images/github-mark.svg" type="image/x-icon">
+
+    <title>Sign in to GitHub · GitHub</title>
+</head>
+<body>
+    <header>
+        <!--Imagem GitHub-->
+        <img src="assets/images/github-mark-white.svg" id="logo">
+    </header>
+
+    <main id="container">
+        <!--Titulo-->
+        <h1 id="title">Sign in to GitHub</h1>
+
+        <!--Inputs-->
+        <form>
+            <!--Usuario-->
+            <div class="input-field">
+                <label for="login-field"> Username or email address </label>
+                <input type="text" name="login" id="login-field" class="form-control" required="required">
+            </div>
+
+            <!--Senha-->
+            <div class="input-field">
+                <div>
+                    <label for="password"> Password </label>
+                    <a href="https://github.com/password_reset" id="forgot-password"> Forgot password? </a>
+                </div>
+
+                <input type="password" name="password" id="password" class="form-control" required="required">
+            </div>
+
+            <!--Botão-->
+            <button type="submit" id="submit-button">Sign In</button>
+        </form>
+        <div id="login_callout">
+            <a href="#">Sign in with a passkey</a>
+            <p>New to GitHub? <a href="https://github.com/signup?source=login">Create an account</a></p>
+        </div>
+    </main>
+
+    <!--Termos-->
+    <footer>
+        <ul>
+            <li>
+                <a href="https://docs.github.com/pt/site-policy/github-terms/github-terms-of-service">Terms</a>
+            </li>
+
+            <li>
+                <a href="https://docs.github.com/pt/site-policy/privacy-policies/github-general-privacy-statement">Privacy</a>
+            </li>
+
+            <li>
+                <a href="https://docs.github.com/pt">Docs</a>
+            </li>
+
+            <li>
+                <a href="https://support.github.com/request/landing">Contact GitHub Support</a>
+            </li>
+
+            <li>
+                <a href="thpiress">Manage cookies</a>
+            </li>
+
+            <li>
+                <a href="thpiress">Do not share my personal information</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
